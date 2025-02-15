@@ -4,57 +4,296 @@
         <meta charset="UFT-8">
         <meta name="viewport" content="width=divice-width, initial-scale=1.0">
         <meta name="descripcion" content="estas es mi primera pagina web">
-        <title>sitio web prueba</title>
+        <title>Improve it</title>
         <link rel="shortcut icon" href="../img/mejorar.png">
-    <!-- coneccion con CSS -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'
+        <!-- coneccion con CSS -->
         <link rel="stylesheet" href="../CSS/estilos.css">
     </head>
 <body>
-    <header>
-        <h1>Improve It</h1>
+
+    <header class="header">
+        <a href="../index.html" class="Logo">Improve It</a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x'id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+            <a href="../index.html"style="--i:0">Home</a>
+            <a href="./page1.html"style="--i:1">Personajes</a>
+            <a href="./page2.html"style="--i:2">Armas</a>
+            <a href="./page3.html"style="--i:3">Ecos</a>
+            <a href="./page4.html"style="--i:4">Codigos</a>
+        </nav>
+
     </header>
 
-
-    <nav class="navbar">
-        <ul>
-            <li><a href="../index.html"> Home </a></li>
-            <li><a href="./page1.html"> Genshing impact </a></li>
-            <li><a href="./page2.html"> Wutering Waves </a></li>
-            <li><a href="./page3.html"> Guild Wars 2 </a></li>
-            <li><a href="./page4.html"> Registro/Login </a></li>
-        </ul>
-    </nav>
-
     <main>
-        <div class="contenedor1">
-            <img src="../img/dps.jpg" alt="">
-            <p>"DPS: Personajes encargados de hacer todo o parte del daño del equipo."
-            </p>
-            <video src="video.mp4" controls></video>
-        </div>
-    
-        <div class="contenedor1">
-            <img src="../img/healer.jpg" alt="">
-            <p>"Healers: Personajes encargados de mantener al equipo con vida o proporcionar apoyo.
-            "
-            </p>
-            <video src="video.mp4" controls></video>
-        </div>
-    
-        <div class="contenedor1">
-            <img src="../img/tank.jpg" alt="">
-            <p>"Tanques: personjaes encargados de proporcionar defensas o utilidades a los demas.
-            "
-            </p>
-            <video src="video.mp4" controls></video>
-        </div>
+        <section class="main-content">
+            <div class="filtros">
+                <div class="elementos">
+                    <div class="glacio">
+                        <img src="../img/elemento/glacio.png" alt="">
+                    </div>
+                    <div class="fusion">
+                        <img src="../img/elemento/fusion.png" alt="">
+                    </div>
+                    <div class="electro">
+                        <img src="../img/elemento/electro.png" alt="">
+                    </div>
+                    <div class="aero">
+                        <img src="../img/elemento/aero.png" alt="">
+                    </div>
+                    <div class="espectro">
+                        <img src="../img/elemento/espectro.png" alt="">
+                    </div>
+                    <div class="destruccion">
+                        <img src="../img/elemento/destriccion.png" alt="">
+                    </div>
+                </div>
+            </div>
 
-        <img src="../img/genshing characters.png" alt="">
+            <div class="personajes">
+                <div class="personajes-content">
+                    <div class="personajes-glacio">
+                        <div class="personaje-1">
+                            <img src="../img/iconos/shanhua icono.png" alt="">
+                            <div calss="nombre">
+                                <h3>Shanhua</h3>
+                            </div>
+                        </div>
+                        <div class="personaje-1">
+                            <img src="../img/iconos/baizhi icono.png" alt="">
+                            <div class="nombre">
+                                <h3>Baizhi</h3>
+                            </div>
+                        </div>
+                        <div class="personaje-1">
+                            <img src="../img/iconos/lingyang icono.png" alt="">
+                            <div class="nombre">
+                                <h3>lingyang</h3>
+                            </div>
+                        </div>
+                        <div class="personaje-1">
+                            <img src="../img/iconos/zhezhi icono.png" alt="">
+                            <div class="nombre">
+                                <h3>Zhezhi</h3>
+                            </div>
+                        </div>
+                        <div class="personaje-1">
+                            <img src="../img/iconos/youhu icono.png" alt="">
+                            <div class="nombre">
+                                <h3>Youhu</h3>
+                            </div>
+                        </div>
+                        <div class="personaje-1">
+                            <img src="../img/iconos/carlotta icono.png" alt="">
+                            <div class="nombre">
+                                <h3>carlotta</h3>
+                            </div>
+                        </div>
+                </div>
+                <div class="personajes-fusion">
+                    <div class="personaje-1">
+                        <img src="../img/iconos/chixia icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Chixia</h3>
+                        </div>
+                    </div>
+                    <div class="personaje-1">
+                        <img src="../img/iconos/encore icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Encore</h3>
+                        </div>
+                    </div>
+                    <div class="personaje-1">
+                        <img src="../img/iconos/mortefi icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Mortefi</h3>
+                        </div>
+                    </div>
+                    <div class="personaje-1">
+                        <img src="../img/iconos/changli icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Changli</h3>
+                        </div>
+                    </div>
+                    <div class="personaje-1">
+                        <img src="../img/iconos/brant icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Brant</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="personajes-electro">
+                    <div class="personaje-1">
+                        <img src="../img/iconos/calcharo icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Calcharo</h3>
+                        </div>
+                    </div>
+                    <div class="personaje-1">
+                        <img src="../img/iconos/yinlin icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Yinlin</h3>
+                        </div>
+                    </div>
+                    <div class="personaje-1">
+                        <img src="../img/iconos/yuanwu icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Yuanwu</h3>
+                        </div>
+                    </div>
+                    <div class="personaje-1">
+                        <img src="../img/iconos/xiangli yao icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Xiangli Yao</h3>
+                        </div>
+                    </div>
+                    <div class="personaje-1">
+                        <img src="../img/iconos/lumi icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Lumi</h3>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="personajes-aero">
+                    <div class="personaje-1">
+                        <img src="../img/iconos/yangyang icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Yangyang</h3>
+                        </div>
+                    </div>
+                    <div class="personaje-1">
+                        <img src="../img/iconos/aalto icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Aalto</h3>
+                        </div>
+                    </div>
+                    <div class="personaje-1">
+                        <img src="../img/iconos/yijan icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Yijan</h3>
+                        </div>
+                    </div>
+                    <div class="personaje-1">
+                        <img src="../img/iconos/jianxin icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Jianxin</h3>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="personajes-espectro">
+                    <div class="personaje-1">
+                        <img src="../img/iconos/verina icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Verina</h3>
+                        </div>
+                    </div>
+                    <div class="personaje-1">
+                        <img src="../img/iconos/jinhsi icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Jinhsi</h3>
+                        </div>
+                    </div>
+                    <div class="personaje-1">
+                        <img src="../img/iconos/shorekeeper icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Shorekeeper</h3>
+                        </div>
+                    </div>
+                    <div class="personaje-1">
+                        <img src="../img/iconos/phoebe icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Phoebe</h3>
+                        </div>
+                    </div>
+                    <div class="personaje-1">
+                        <img src="../img/iconos/roverM icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Rover-(Espectro)</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="personajes-destruccion">
+                    <div class="personaje-1">
+                        <img src="../img/iconos/roccia icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Roccia</h3>
+                        </div>
+                    </div>
+                    <div class="personaje-1">
+                        <img src="../img/iconos/taoqi icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Taoqi</h3>
+                        </div>
+                    </div>
+                    <div class="personaje-1">
+                        <img src="../img/iconos/danjin icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Danjin</h3>
+                        </div>
+                    </div>
+                    <div class="personaje-1">
+                        <img src="../img/iconos/camellya icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Camellya</h3>
+                        </div>
+                    </div>
+                    <div class="personaje-1">
+                        <img src="../img/iconos/roverH icono.png" alt="">
+                        <div class="nombre">
+                            <h3>Rover-(Destruccion)</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer>
-        Todos Los Derechos Reservados 
+    <footer class="footer">
+        <div class = "container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <h4>Sobre Nosotros</h4>
+                    <ul>
+                        <li><a href="#">contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>acerca de la pagina</h4>
+                    <ul>
+                        <li><a href="#">politicas de privacidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>preguntas</h4>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-link">
+                    <h4>conectate</h4>
+                    <div class="input-send">
+                        <input type="email" placeholder="ingresa tu correo">
+                        <button type="submit">enviar</button>
+                    </div>
+                    <div class="social-link"></div>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="derechos">
+            <p>Nosotros NO estamos asociados o respaldados por Guangzhou Kuro Technology Co. Ltd.</p>
+        </div>
     </footer>
 </body>

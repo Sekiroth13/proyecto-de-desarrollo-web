@@ -4,26 +4,32 @@
         <meta charset="UFT-8">
         <meta name="viewport" content="width=divice-width, initial-scale=1.0">
         <meta name="descripcion" content="estas es mi primera pagina web">
-        <title>sitio web prueba</title>
+        <title>Improve it</title>
         <link rel="shortcut icon" href="../img/mejorar.png">
-    <!-- coneccion con CSS -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'
+        <!-- coneccion con CSS -->
         <link rel="stylesheet" href="../CSS/estilos.css">
     </head>
 <body>
-    <header>
-        <h1>Improve It</h1>
+
+    <header class="header">
+        <a href="../index.html" class="Logo">Improve It</a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x'id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+            <a href="../index.html"style="--i:0">Home</a>
+            <a href="./page1.html"style="--i:1">Personajes</a>
+            <a href="./page2.html"style="--i:2">Armas</a>
+            <a href="./page3.html"style="--i:3">Ecos</a>
+            <a href="./page4.html"style="--i:4">Codigos</a>
+        </nav>
+
     </header>
-
-    <nav class="navbar">
-        <ul>
-            <li><a href="../index.html"> Home </a></li>
-            <li><a href="./page1.html"> Genshing Impact </a></li>
-            <li><a href="./page2.html"> Wutering Waves </a></li>
-            <li><a href="./page3.html"> Guild Wars 2 </a></li>
-            <li><a href="./page4.html"> Registro/Login </a></li>
-        </ul>
-    </nav>
-
 
 <form action="/submit" method="post"><!-- ETIQUETA CONTENEDOR -->
     <label for="">Nombre</label>
@@ -40,7 +46,43 @@
 <button>cancelar</button>
 </form>
 
-    <footer>
-        Todos Los Derechos Reservados 
-    </footer>
+<footer class="footer">
+    <div class = "container">
+        <div class="footer-content">
+            <div class="footer-links">
+                <h4>Sobre Nosotros</h4>
+                <ul>
+                    <li><a href="#">contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>acerca de la pagina</h4>
+                <ul>
+                    <li><a href="#">politicas de privacidad</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>preguntas</h4>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-link">
+                <h4>conectate</h4>
+                <div class="input-send">
+                    <input type="email" placeholder="ingresa tu correo">
+                    <button type="submit">enviar</button>
+                </div>
+                <div class="social-link"></div>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            
+        </div>
+    </div>
+    <div class="derechos">
+        <p>Nosotros NO estamos asociados o respaldados por Guangzhou Kuro Technology Co. Ltd.</p>
+    </div>
+</footer>
 </body>

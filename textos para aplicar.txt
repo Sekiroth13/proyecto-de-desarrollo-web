@@ -1,0 +1,21 @@
+armas 
+
+Wuthering Waves  tiene 5 tipos distintos de armas, las cuales ofrecen estilos de juegos unicos. estas armas son:
+
+- Espadon / Broadblade
+- Espada / Sword
+- Pistolas / Pistols
+- Guantes / Gauntlets
+- ctalizador / Rectifier
+
+Character Elements
+Cada personaje pose un elemento unico que define su estilo de combate y el tipo de daño que inflige.
+este sistema de elemento le agrega profundidad, estrategia a la creacion de equipos, haciendo que los jugadores tengan que adaptarse
+a diferentes tipos de enemigos. actualmente existen 6 tipos de elementos listados a continuacion  There are currently 6 elements in the game:
+
+Glacio / hielo
+Fusion / Fuego
+Electro / Electricidad
+Aero / viento
+Spectro / luz
+Havoc / destruccion
