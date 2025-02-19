@@ -19,3 +19,7 @@ Electro / Electricidad
 Aero / viento
 Spectro / luz
 Havoc / destruccion
+
+
+todos los personajes disponibles actualmente poseen tanto uno los tipos de armas, de los 5 tipos disponibles, como asi tambien un unico elemento
+define tanto su estilo de combate como el tipo de daño que inflige a los enemigos.

@@ -32,30 +32,67 @@
     </header>
 
     <main>
+        <div>
+            <h1>Personajes actuales</h1>
+            <p>
+                todos los personajes disponibles actualmente poseen tanto uno los tipos de armas, de los 5 tipos disponibles, como asi tambien un unico elemento
+                define tanto su estilo de combate como el tipo de daño que inflige a los enemigos.
+            </p>
+        </div>
+
+
+
         <section class="main-content">
-            <div class="filtros">
-                <div class="elementos">
-                    <div class="glacio">
-                        <img src="../img/elemento/glacio.png" alt="">
+            <aside>
+                <div class="contenedor-flitros">
+                    <div class="buscador-nombre">
+                        <label for="buscar">buscar</label>
+                        <input type="text" name="nombre" id="nombre">
                     </div>
-                    <div class="fusion">
-                        <img src="../img/elemento/fusion.png" alt="">
+                    <div class="elementos">
+                        <div class="glacio">
+                            <img src="../img/elemento/glacio.png" alt="">
+                        </div>
+                        <div class="fusion">
+                            <img src="../img/elemento/fusion.png" alt="">
+                        </div>
+                        <div class="electro">
+                            <img src="../img/elemento/electro.png" alt="">
+                        </div>
+                        <div class="aero">
+                            <img src="../img/elemento/aero.png" alt="">
+                        </div>
+                        <div class="espectro">
+                            <img src="../img/elemento/espectro.png" alt="">
+                        </div>
+                        <div class="destruccion">
+                            <img src="../img/elemento/destriccion.png" alt="">
+                        </div>
                     </div>
-                    <div class="electro">
-                        <img src="../img/elemento/electro.png" alt="">
+                    <div class="buscador-estrellas">
+                        <label for="estrellas"> estrellas</label>
+                        <select name="" id="">
+                            <option value="">todos</option>
+                            <option value="">5 estrellas</option>
+                            <option value="">4 estrellas</option>
+                        </select>
                     </div>
-                    <div class="aero">
-                        <img src="../img/elemento/aero.png" alt="">
-                    </div>
-                    <div class="espectro">
-                        <img src="../img/elemento/espectro.png" alt="">
-                    </div>
-                    <div class="destruccion">
-                        <img src="../img/elemento/destriccion.png" alt="">
+                    <div class="buscador-armas">
+                        <label for="tipo de arma">tipo de arma</label>
+                        <select name="" id="">
+                            <option value="">espadas</option>
+                            <option value="">espadones</option>
+                            <option value="">pistolas</option>
+                            <option value="">guantes</option>
+                            <option value="">rectificadores</option>
+                        </select>
                     </div>
                 </div>
-            </div>
+            </aside>
+        </section>
 
+
+        <section>
             <div class="personajes">
                 <div class="personajes-content">
                     <div class="personajes-glacio">
@@ -255,6 +292,10 @@
                 </div>
             </div>
         </section>
+
+
+
+
     </main>
 
     <footer class="footer">
@@ -292,6 +333,20 @@
                 
             </div>
         </div>
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+
+
         <div class="derechos">
             <p>Nosotros NO estamos asociados o respaldados por Guangzhou Kuro Technology Co. Ltd.</p>
         </div>
